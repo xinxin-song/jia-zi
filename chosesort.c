@@ -7,7 +7,7 @@ int main()
 		int min = 100;
 		int mark =0;
 		for(int j =10;j-i>0;j--) {
-			if(a[10-j+i]<min){
+			if(a[10-j+i]<min) {
 				mark = 10-j+i;
 				min = a[10-j+i];
 			}
